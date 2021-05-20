@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="cordova.js"></script> 
+    <!-- <script
+        src="https://code.jquery.com/jquery-1.9.1.min.js"
+        integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ="
+        crossorigin="anonymous"></script> -->
+    <script src="lib/jquery-1.9.1.min.js"></script>
+    <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/app.js"></script>
+    <title>Ma todo liste</title>
+</head>
+<body>
+    <div data-role="header">
+        <h1>TMBD Todo liste App</h1>
+    </div>
+    <div data-role="content">
+        <form>
+            <input type="text" id="task" placeholder="Inserer tache à ajouter...">
+            <input type="button" value="ajouter" onclick="ajouterElement()">
+        </form>
+        <ul id="taskList" data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="rechercher une tâche...">
+            <!-- <li>Apprendre java</li>
+            <li>Faire du sport</li>
+            <li>Terminer mon projet</li> -->
+        </ul>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h1>By TMBD &copy; Mars 2021</h1>
+    </div>
+</body>
+</html>

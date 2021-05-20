@@ -1,0 +1,24 @@
+{
+  "name": "sn.esp.dic3",
+  "displayName": "IMC calculator",
+  "version": "1.0.0",
+  "description": "Application permettant de calculer votre IMC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Thierno DIALLO",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^9.1.0",
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    }
+  }
+}
